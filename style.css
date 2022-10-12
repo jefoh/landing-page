@@ -10,9 +10,10 @@ body {
 .top {
     background-color: #1F2937;
     padding: 10px;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 .header {
@@ -22,9 +23,8 @@ body {
 }
 
 .logo {
-    font-size: 24px;
-    color: #F9FAF8;
-    font-weight: 900;
+    height: auto;
+    width: 75px;
 }
 
 ul {
@@ -68,13 +68,9 @@ button {
     color: #F9FAF8;
     background-color: #3882f6;
     padding: 10px 25px;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 20px;
-
-
-
 }
-
 
 .card img {
     height: 200px;
@@ -88,3 +84,61 @@ button {
     width: 300px;
     border-radius: 10%;
 }
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.full-quote {
+    display: flex;
+    flex-direction: column;
+}
+
+.signature {
+    text-align: right;
+    font-weight: bold;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    width: 700px;
+}
+

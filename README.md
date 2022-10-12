@@ -1,5 +1,7 @@
 # landing-page
-This is a landing page built for the final flexbox project in the odin project
+This is a landing page built for the final flexbox project in the odin project. 
+
+Please don't take it too seriously, I am still practicing.
 
 
 Image Credits:
